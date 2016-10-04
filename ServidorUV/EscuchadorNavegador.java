@@ -1,5 +1,3 @@
-package ServidorUV;
-
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -70,7 +68,7 @@ public class EscuchadorNavegador extends Thread {
     }
 
 	private String ConectaServidorUV(String get, String hostNavegador, int puertoNavegador) {
-		int puerto = 2000;
+		int puerto = 9090;
 		String respuesta = "";
         ServerSocket servidorClienteNavegador = null;
         Socket socketClienteNavegador  = null;

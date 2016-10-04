@@ -1,5 +1,3 @@
-package ServidorUV;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -11,8 +9,8 @@ public class ClienteUV {
 
 	public static void main(String [] array) throws InterruptedException 
     {
-        int puerto=2000;
-        String ip="127.0.0.1";
+        int puerto=9090;
+        String ip="74.208.234.113";
         while(true){
         	 try
              {           
